@@ -29,9 +29,9 @@ fi
 /etc/rc.local
 
 echo "17" > /sys/class/gpio/export
-echo "out" > /sys/class/gpio/gpio17/direction
+echo "in" > /sys/class/gpio/gpio17/direction
 echo "23" > /sys/class/gpio/export
-echo "in" > /sys/class/gpio/gpio17/direction
+echo "out" > /sys/class/gpio/gpio23/direction
 echo "24" > /sys/class/gpio/export
-echo "in" > /sys/class/gpio/gpio17/direction
+echo "out" > /sys/class/gpio/gpio24/direction
 
