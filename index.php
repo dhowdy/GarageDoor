@@ -440,7 +440,7 @@
 <?php
 $output = exec("sudo /var/www/status.sh");
 if ($output == "error"){
-   echo "ERROR! Please refresh!";
+   echo "<p>Cannot determine the door's status. Please refresh or check the sensors.</p>";
 }
 
 
