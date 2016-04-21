@@ -16,7 +16,7 @@ You'll need to create some files:
     if [[ $(cat /sys/class/gpio/gpio24/value) -eq 0 && $(cat /sys/class/gpio/gpio23/value) -eq 1 ]] 
     then 
 	    echo opened 
-	elif [[ $(cat /sys/class/gpio/gpio24/value) -eq 1 && $(cat sys/class/gpio/gpio23/value) -eq 0 ]] 
+	elif [[ $(cat /sys/class/gpio/gpio24/value) -eq 1 && $(cat /sys/class/gpio/gpio23/value) -eq 0 ]] 
 	then 
 	    echo closed 
 	else 
